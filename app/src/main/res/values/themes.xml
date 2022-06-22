@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ComercialGuideRJ" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Status bar color. -->
+        <item name="titleTextColor"> @color/white</item>
+        <item name="android:statusBarColor" >@color/azulEscuro</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
