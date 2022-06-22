@@ -9,7 +9,7 @@ class CardosoMainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cardoso_main)
         setSupportActionBar(findViewById(R.id.toolbar))
-        supportActionBar?.title = "Cardoso Moreira1"
+        supportActionBar?.title = "Cardoso Moreira"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val recyclerViewLoja = findViewById<RecyclerView>(R.id.listaCardoso)
