@@ -29,6 +29,7 @@
         android:textColor="@color/white"
         android:paddingHorizontal="16dp"
         android:background="@color/azulClaro"
-        android:text="Cardoso Moreira"/>
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/cardoso_moreira"/>
 
   </androidx.constraintlayout.widget.ConstraintLayout>

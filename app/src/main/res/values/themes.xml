@@ -5,5 +5,7 @@
         <item name="titleTextColor"> @color/white</item>
         <item name="android:statusBarColor" >@color/azulEscuro</item>
         <!-- Customize your theme here. -->
+        <!-- Fonte Global -->
+        <item name="android:fontFamily"> @font/roboto_regular</item>
     </style>
 </resources>

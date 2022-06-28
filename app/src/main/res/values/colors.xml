@@ -11,5 +11,8 @@
     <color name="pretoTransparente">#B3000000</color>
     <color name="semCor">#00000000</color>
     <color name="azulEscuro">#003050</color>
+    <color name="azulEscuroVariacao">#000628</color>
     <color name="azulClaro">#00a5b6</color>
+    <color name="azulClaroVariacao">#007586</color>
+    <color name="vermelho">#D32F2F</color>
 </resources>
