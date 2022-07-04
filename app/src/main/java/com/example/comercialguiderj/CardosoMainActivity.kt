@@ -1,9 +1,7 @@
 package com.example.comercialguiderj
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.comercialguiderj.adapter.LojaAdapter
@@ -32,6 +30,7 @@ class CardosoMainActivity : AppCompatActivity() {
             "https://img.freepik.com/fotos-gratis/flores-amarelas-usam-fot-fundo_34836-1369.jpg",
             categoriasDeLoja[2],
             "dksajdksa",
+            arrayOf()
         )
 
         val listaDeLoja = arrayListOf(loja)

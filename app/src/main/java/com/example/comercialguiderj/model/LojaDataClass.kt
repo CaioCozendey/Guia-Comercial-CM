@@ -1,9 +1,9 @@
 package com.example.comercialguiderj.model
 
-data class LojaDataClass (
+data class LojaDataClass(
     val nome: String,
     val foto: String,
     val categorias: String,
     val endereco: String = " ",
-    val contatos: Array<String> = arrayOf("")
+    val contato: Array<ContatoDataClass>
 )
