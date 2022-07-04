@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.comercialguiderj.adapter.LojaAdapter
+import com.example.comercialguiderj.model.ContatoDataClass
 import com.example.comercialguiderj.model.LojaDataClass
 
 class CardosoMainActivity : AppCompatActivity() {
@@ -30,7 +31,9 @@ class CardosoMainActivity : AppCompatActivity() {
             "https://img.freepik.com/fotos-gratis/flores-amarelas-usam-fot-fundo_34836-1369.jpg",
             categoriasDeLoja[2],
             "dksajdksa",
-            arrayOf()
+            arrayOf(
+                ContatoDataClass("Email", "caiocozendey@hotmail.com"),
+                ContatoDataClass("Celular", "(22) 99856 2641"))
         )
 
         val listaDeLoja = arrayListOf(loja)
